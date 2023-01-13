@@ -3,7 +3,7 @@
 |||
 |---|---|
 |Node|v18.2.0|
-||express|
+| framework|express|
 
 #### Scripts
 dev: `$npm run dev`
