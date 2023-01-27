@@ -12,6 +12,10 @@ build `$npm run build`
 #### libraries
 - knex
 https://knexjs.org/guide/
+`knex migrate:make migration_name`
+`knex migrate:run`
+`knex seed:make seed_name`
+`knex seed:run`
 
 - express-validator
 https://github.com/express-validator/express-validator
