@@ -15,7 +15,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "src/api/v1/routes"],
   "exclude": ["dist", "node_modules"],
   "compileOnSave": false
 }

@@ -5,7 +5,8 @@
   "scripts": {
     "start": "node dist/app.js",
     "dev": "nodemon --delay 1.5 src/index.ts",
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "knex": "./node_modules/.bin/knex --knexfile database/knexfile.ts "
   },
   "author": "",
   "license": "ISC",
@@ -33,6 +34,7 @@
     "express": "^4.18.2",
     "express-validator": "^6.14.2",
     "knex": "^2.4.0",
+    "pg": "^8.8.0",
     "ts-node": "^10.9.1",
     "uuid": "^9.0.0"
   }

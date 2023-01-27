@@ -12,8 +12,8 @@ router
 
   .post('/', ExampleController.post)
 
-  .put('/', ExampleValidator.post, ExampleController.put)
+  .put('/:id', /* ExampleValidator.post, */ ExampleController.put)
   
-  .delete('/', ExampleController.delete);
+  .delete('/:id', ExampleController.delete);
 
 export default router;
