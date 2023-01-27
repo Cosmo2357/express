@@ -34,3 +34,25 @@ bcrypt.compareSync("B4c0/\/", hash); // true
 bcrypt.compareSync("not_bacon", hash); // false
 
 ```
+
+
+#### env key
+`.env`
+```
+PORT
+
+DEV_CLIENT
+DEV_DATABASE
+DEV_USER
+DEV_PASSWORD
+
+STG_CLIENT
+STG_DATABASE
+STG_USER
+STG_PASSWORD
+
+PROD_CLIENT
+PROD_DATABASE
+PROD_USER
+PROD_PASSWORD
+```
