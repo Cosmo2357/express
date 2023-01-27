@@ -1,3 +1,3 @@
-import ExampleController from "./ExampleController";
+import ExampleController from "./exampleController";
 
 export default { ExampleController };
