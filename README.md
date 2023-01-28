@@ -5,22 +5,23 @@
 |Node|v18.2.0|
 | framework|express|
 
-#### Scripts
-dev: `$npm run dev`
-build `$npm run build`
+#### 
+`$npm run dev`
+`$npm run build`
 
-#### libraries
-- knex
+#### Knex
+
 https://knexjs.org/guide/
-`knex migrate:make migration_name`
-`knex migrate:run`
-`knex seed:make seed_name`
-`knex seed:run`
+
+`$ npm run knex migrate:make migration_name`
+`$ npm run knex migrate:run`
+`$ npm run knex seed:make seed_name`
+`$ npm run knex seed:run`
 
 - express-validator
 https://github.com/express-validator/express-validator
 
-- bcrypt
+#### bcrypt
 https://www.npmjs.com/package/bcrypt
 
 ```js
@@ -43,8 +44,10 @@ bcrypt.compareSync("not_bacon", hash); // false
 #### env key
 `.env`
 ```
+// for express
 PORT
 
+// for knex
 DEV_CLIENT
 DEV_DATABASE
 DEV_USER
