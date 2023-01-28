@@ -6,7 +6,7 @@
     "start": "node dist/app.js",
     "dev": "nodemon --delay 1.5 src/index.ts",
     "build": "tsc -p .",
-    "knex": "./node_modules/.bin/knex --knexfile database/knexfile.ts "
+    "knex": "./node_modules/.bin/knex --knexfile src/api/v1/database/knexfile.ts "
   },
   "author": "",
   "license": "ISC",

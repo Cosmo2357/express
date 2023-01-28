@@ -1,4 +1,4 @@
-### Node.js server
+### Node.js Express server with Knext
 
 |||
 |---|---|
