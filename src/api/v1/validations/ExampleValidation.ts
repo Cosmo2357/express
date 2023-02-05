@@ -5,8 +5,8 @@ export default {
 
 post:  (req: Request, res: Response, next: NextFunction) => {
   
-  body('username').isEmail(),
-  body('password').isLength({ min: 5 }),
+  //body('name').isEmail(),
+  body('name').isLength({ min: 5 }),
 
   (req: Request, res: Response) => {
     const errors = validationResult(req);

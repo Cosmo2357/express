@@ -10,9 +10,9 @@ router
 
   .get('/:id', ExampleController.getOne)
 
-  .post('/', ExampleController.post)
+  .post('/', ExampleValidator.post, ExampleController.post)
 
-  .put('/:id', /* ExampleValidator.post, */ ExampleController.put)
+  .put('/:id', ExampleValidator.post,  ExampleController.put)
   
   .delete('/:id', ExampleController.delete);
 
